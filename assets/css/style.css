@@ -713,6 +713,9 @@ body:has(.footer_layout_1) .backtotop {
 
 .section_space_p {
   padding-top: 80px;
+  width: 98%;
+  margin-left: 1%;
+  border-radius: 30px; 
   /* padding-bottom: 0px; */
 }
 
@@ -3798,6 +3801,7 @@ input[type=search]::-webkit-search-results-decoration {
 ================================================== */
 .it_solution_hero_section {
   padding: 70px 0;
+  
 }
 
 @media screen and (max-width: 991px) {
