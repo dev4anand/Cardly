@@ -204,7 +204,7 @@
     speed: 400,
     spaceBetween: 30,
     allowTouchMove: true,
-    centeredSlides: true,
+    centeredSlides: false,
     pagination: {
       el: ".portfolio-swiper-pagination",
       clickable: true,
