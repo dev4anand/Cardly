@@ -3908,9 +3908,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .it_solution_hero_images .worldwide_clients {
-  background-color: #FB7929;
   padding: 66px 85px 65px 90px;
-  border-radius: 175px 20px 0px 175px;
 }
 
 .it_solution_hero_images .worldwide_clients .counter_value {
