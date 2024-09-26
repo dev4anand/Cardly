@@ -200,7 +200,7 @@
   // Portfolio Carousel - Start
   // --------------------------------------------------
   var swiperPortfolio = new Swiper(".portfolio_carousel", {
-    loop: true,
+    loop: false,
     speed: 400,
     spaceBetween: 30,
     allowTouchMove: true,
@@ -211,7 +211,7 @@
     },
     breakpoints: {
       1025: {
-        slidesPerView: 2,
+        slidesPerView: 4,
       },
     },
   });
