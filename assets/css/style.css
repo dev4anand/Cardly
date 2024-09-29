@@ -97,7 +97,7 @@
   --bs-border-color: #E3F0FF;
   --bs-border-color-translucent: rgba(227, 240, 255, 1);
   --bs-border-radius: 10px;
-  --bs-border-radius-sm: 20px;
+  --bs-border-radius-sm: 30px;
   --bs-border-radius-pill: 50px;
   --bs-transition: 300ms ease;
 }
@@ -5086,7 +5086,7 @@ input[type=search]::-webkit-search-results-decoration {
 ================================================== */
 .about_image_1 {
   position: relative;
-  margin-left: -273px;
+  /* margin-left: -273px; */
 }
 
 .about_image_1 img:nth-child(2) {
