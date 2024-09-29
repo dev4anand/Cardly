@@ -241,7 +241,17 @@
   });
   // Team Carousel - End
   // --------------------------------------------------
+  $('body').append('<div class="mt-cursor"></div>');
+  var cursor = $('.mt-cursor'),
+      linksCursor = $('a, .swiper-nav, button, .cursor-effect'),
+      crossCursor = $('.cross-cursor');
 
+  $(window).on('mousemove', function (e) {
+      cursor.css({
+          'transform': 'translate(' + (e.clientX - 15) + 'px,' + (e.clientY - 15) + 'px)',
+          'visibility': 'inherit'
+      });
+  });
   // Blog 1 Col Carousel - Start
   // --------------------------------------------------
   var blogOneColCarousel = new Swiper(".blog_onecol_carousel", {
