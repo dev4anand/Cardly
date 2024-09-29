@@ -3800,13 +3800,13 @@ input[type=search]::-webkit-search-results-decoration {
 /* 4.05 - Hero Sections - Start
 ================================================== */
 .it_solution_hero_section {
-  padding: 70px 0;
+  padding: 15px 0;
   
 }
 
 @media screen and (max-width: 991px) {
   .it_solution_hero_section {
-    padding-top: 20px;
+    padding-top: 15px;
   }
 }
 
@@ -4696,7 +4696,37 @@ input[type=search]::-webkit-search-results-decoration {
   font-weight: 500;
   font-family: "Axiforma Medium";
 }
+.service_block_two {
+  position: relative;
+}
 
+.service_block_two .service_image {
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s;
+  /* border-radius: var(--bs-border-radius-sm); */
+}
+
+.service_block_two .service_image img {
+  transition: 0.3s;
+}
+
+.service_block_two .service_image:hover {
+  transform: scale(0.98);
+}
+.service_block_two .service_image2:hover {
+  transform: scale(0.98);
+}
+.service_block_two .service_image3:hover {
+  transform: scale(0.98);
+}
+.service_block_two .service_image4:hover {
+  transform: scale(0.98);
+}
+
+/* .service_block_two:hover .service_image img {
+  transform: scale(1.11);
+} */
 /* 4.08 - Review - End
 ================================================== */
 /* 4.09 - Service - Start
@@ -7448,7 +7478,7 @@ Responsive For Mobile & Tablet Devices
   }
 
   .it_solution_hero_section {
-    padding: 30px 0;
+    padding: 15px 0;
   }
 
   .service_section .shape_image_4,
