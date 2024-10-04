@@ -3178,6 +3178,7 @@ input[type=search]::-webkit-search-results-decoration {
 .page_title {
   font-size: 55px;
   line-height: 70px;
+  text-shadow: 0 1px 2px rgb(0, 0, 0);
 }
 
 /* 3.03 - Page Header, Page Banner, Breadcrumb - End
@@ -4730,16 +4731,16 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .service_block_two .service_image:hover {
-  transform: scale(0.94);
+  transform: scale(0.99);
 }
 .service_block_two .service_image2:hover {
-  transform: scale(0.94);
+  transform: scale(0.99);
 }
 .service_block_two .service_image3:hover {
-  transform: scale(0.94);
+  transform: scale(0.99);
 }
 .service_block_two .service_image4:hover {
-  transform: scale(0.94);
+  transform: scale(0.99);
 }
 
 /* .service_block_two:hover .service_image img {
@@ -4837,6 +4838,7 @@ input[type=search]::-webkit-search-results-decoration {
 .service_block .service_title a {
   display: inline;
   color: var(--bs-white);
+  text-shadow: 0 1px 2px rgb(0, 0, 0);
   background-size: 0 100%;
   backface-visibility: hidden;
   background-position-y: -2px;
@@ -4847,6 +4849,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 .service_block .service_title a:hover {
   background-size: 100% 100%;
+  color: var(--bs-primary);
 }
 
 .service_block .links_wrapper {
