@@ -3700,7 +3700,7 @@ input[type=search]::-webkit-search-results-decoration {
 .client_logo_section {
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-color: var(--bs-light);
   background-position: center center;
 }
