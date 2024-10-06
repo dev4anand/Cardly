@@ -1732,6 +1732,99 @@ input[type=search]::-webkit-search-results-decoration {
     max-width: 100%;
   }
 }
+.video_btn2 {
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  align-items: center;
+  display: inline-flex;
+  color: var(--bs-dark);
+  font-family: 'Axiforma Medium';
+}
+
+.video_btn2 .btn_icon {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  font-size: 30px;
+  /* padding-left: 4px; */
+  /* background-color: rgb(239, 104, 158); */
+  border-radius: 100%;
+  align-items: center;
+  display: inline-flex;
+  color: var(--bs-dark);
+  justify-content: center;
+  transition: var(--bs-transition);
+  border: 2px solid var(--bs-white);
+  outline: 1px solid var(--bs-dark);
+}
+
+/* .video_btn2:hover .btn_icon {
+  color: var(--bs-white);
+  background-color: var(--bs-dark);
+} */
+
+.video_btn2.ripple_effect .btn_icon {
+  z-index: 1;
+  padding: 0;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  outline: none;
+  position: relative;
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--bs-white);
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 20px 30px 0 rgba(2, 8, 66, 0.5);
+}
+
+.video_btn2.ripple_effect .btn_icon:before,
+.video_btn2.ripple_effect .btn_icon:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+  content: '';
+  position: absolute;
+  border-radius: 100%;
+  transition: all .33s ease;
+  animation: ripple 1.5s linear infinite;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.video_btn2.ripple_effect .btn_icon:before {
+  animation-delay: .1s;
+}
+
+.video_btn2.ripple_effect .btn_icon:after {
+  animation-delay: .9s;
+}
+
+.video_btn2.ripple_effect .btn_icon i {
+  width: 86px;
+  height: 86px;
+  flex: 0 0 auto;
+  transition: 0.2s;
+  padding-left: 4px;
+  border-radius: 100%;
+  align-items: center;
+  display: inline-flex;
+  color: var(--bs-white);
+  justify-content: center;
+  background-color: rgb(239, 104, 158);
+  /* background-color: var(--bs-primary); */
+}
+
+.position-relative .video_btn2 {
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 
 .video_btn {
   gap: 10px;
@@ -1748,7 +1841,7 @@ input[type=search]::-webkit-search-results-decoration {
   width: 58px;
   height: 58px;
   flex: 0 0 58px;
-  font-size: 20px;
+  font-size: 30px;
   padding-left: 4px;
   border-radius: 100%;
   align-items: center;
@@ -1814,7 +1907,8 @@ input[type=search]::-webkit-search-results-decoration {
   display: inline-flex;
   color: var(--bs-white);
   justify-content: center;
-  background-color: var(--bs-primary);
+  /* background-color: var(--bs-primary); */
+  background-color: rgb(238, 11, 11);
 }
 
 .position-relative .video_btn {
